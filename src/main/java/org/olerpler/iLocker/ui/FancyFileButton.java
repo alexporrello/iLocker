@@ -1,4 +1,4 @@
-package ui;
+package org.olerpler.iLocker.ui;
 
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
@@ -14,9 +14,11 @@ import javax.swing.JComponent;
 import javax.swing.SwingConstants;
 
 import layout.GBC;
+
+import org.olerpler.iLocker.encryption.EncryptionManager;
+
 import text.JMLabel;
 import colors.JMColor;
-import encryption.EncryptionManager;
 
 /**
  * A FileButton that displays a file's name, modified date, and size.	

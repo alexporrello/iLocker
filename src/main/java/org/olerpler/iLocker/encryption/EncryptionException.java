@@ -1,4 +1,4 @@
-package encryption;
+package org.olerpler.iLocker.encryption;
 
 public class EncryptionException extends Exception {
 	private static final long serialVersionUID = -4451814737551014389L;

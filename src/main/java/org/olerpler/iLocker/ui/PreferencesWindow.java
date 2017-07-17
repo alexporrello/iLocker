@@ -1,4 +1,4 @@
-package ui;
+package org.olerpler.iLocker.ui;
 
 import java.awt.GridBagLayout;
 import java.awt.event.MouseEvent;
@@ -7,13 +7,14 @@ import java.util.function.Consumer;
 import javax.swing.BorderFactory;
 import javax.swing.JComponent;
 
+import org.olerpler.iLocker.encryption.Preferences;
+
 import layout.GBC;
 import text.JMLabel;
 import clickables.JMCheckBox;
 import colors.JMColor;
 import displays.JMFrame;
 import displays.JMPanel;
-import encryption.Preferences;
 
 public class PreferencesWindow extends JMFrame {
 	private static final long serialVersionUID = -1546829852242828531L;

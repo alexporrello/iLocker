@@ -1,4 +1,4 @@
-package ui;
+package org.olerpler.iLocker.ui;
 
 import java.awt.GridBagLayout;
 import java.awt.datatransfer.DataFlavor;
@@ -19,13 +19,15 @@ import javax.swing.JComponent;
 import javax.swing.SwingConstants;
 
 import layout.GBC;
+
+import org.olerpler.iLocker.encryption.EncryptionManager;
+
 import clickables.JMButton;
 import colors.HoverColor;
 import colors.JMColor;
 import displays.JMFrame;
 import displays.JMPanel;
 import displays.JMScrollPane;
-import encryption.EncryptionManager;
 
 public class FileListWindow extends JMPanel {
 	private static final long serialVersionUID = 2446692568487393150L;

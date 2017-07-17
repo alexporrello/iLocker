@@ -1,4 +1,4 @@
-package ui;
+package org.olerpler.iLocker.ui;
 
 import java.awt.AWTException;
 import java.awt.BorderLayout;
@@ -26,6 +26,10 @@ import javax.swing.JPasswordField;
 import javax.swing.SwingConstants;
 
 import layout.GBC;
+
+import org.olerpler.iLocker.encryption.EncryptionException;
+import org.olerpler.iLocker.encryption.EncryptionManager;
+
 import text.JMFont;
 import text.JMLabel;
 import clickables.JMButton;
@@ -33,8 +37,6 @@ import colors.HoverColor;
 import colors.JMColor;
 import displays.JMFrame;
 import displays.JMPanel;
-import encryption.EncryptionException;
-import encryption.EncryptionManager;
 
 public class iLockerGUI extends JMFrame {
 	private static final long serialVersionUID = -1920730013149358942L;

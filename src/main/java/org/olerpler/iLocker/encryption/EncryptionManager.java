@@ -1,4 +1,4 @@
-package encryption;
+package org.olerpler.iLocker.encryption;
 
 import java.awt.Desktop;
 import java.io.File;
